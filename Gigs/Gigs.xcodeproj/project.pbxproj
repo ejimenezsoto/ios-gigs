@@ -14,6 +14,10 @@
 		79C275B32461F3ED005B4416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C275B12461F3ED005B4416 /* LaunchScreen.storyboard */; };
 		79C275BB2461F594005B4416 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C275BA2461F594005B4416 /* LoginViewController.swift */; };
 		79C275BD2461F6FA005B4416 /* GigsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C275BC2461F6FA005B4416 /* GigsTableViewController.swift */; };
+		79C275C2246204A8005B4416 /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C275C1246204A8005B4416 /* Bearer.swift */; };
+		79C275C5246204D9005B4416 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C275C4246204D9005B4416 /* User.swift */; };
+		79C275C7246204FA005B4416 /* GigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C275C6246204FA005B4416 /* GigController.swift */; };
+		79C275C924620561005B4416 /* Gigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C275C824620561005B4416 /* Gigs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		79C275B42461F3ED005B4416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C275BA2461F594005B4416 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		79C275BC2461F6FA005B4416 /* GigsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigsTableViewController.swift; sourceTree = "<group>"; };
+		79C275C1246204A8005B4416 /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
+		79C275C4246204D9005B4416 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		79C275C6246204FA005B4416 /* GigController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigController.swift; sourceTree = "<group>"; };
+		79C275C824620561005B4416 /* Gigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gigs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		79C275A52461F3ED005B4416 /* Gigs */ = {
 			isa = PBXGroup;
 			children = (
+				79C275C3246204B6005B4416 /* Models */,
 				79C275BF2461F76D005B4416 /* Resources */,
 				79C275BE2461F759005B4416 /* Storyboard */,
 				79C275C02461F789005B4416 /* ViewController */,
@@ -92,6 +101,17 @@
 				79C275BC2461F6FA005B4416 /* GigsTableViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		79C275C3246204B6005B4416 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79C275C1246204A8005B4416 /* Bearer.swift */,
+				79C275C4246204D9005B4416 /* User.swift */,
+				79C275C6246204FA005B4416 /* GigController.swift */,
+				79C275C824620561005B4416 /* Gigs.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,10 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C275C2246204A8005B4416 /* Bearer.swift in Sources */,
+				79C275C7246204FA005B4416 /* GigController.swift in Sources */,
 				79C275BB2461F594005B4416 /* LoginViewController.swift in Sources */,
+				79C275C5246204D9005B4416 /* User.swift in Sources */,
 				79C275BD2461F6FA005B4416 /* GigsTableViewController.swift in Sources */,
 				79C275A72461F3ED005B4416 /* AppDelegate.swift in Sources */,
 				79C275A92461F3ED005B4416 /* SceneDelegate.swift in Sources */,
+				79C275C924620561005B4416 /* Gigs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
